@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+//PIN SDA1 = PA18 SCL1 = PA17
 // bq76925 I2C register address macros
 #define I2C_GROUP_ADDR 0x04
 // Register addresses 0x00 - 0x05 are Read / Write.
